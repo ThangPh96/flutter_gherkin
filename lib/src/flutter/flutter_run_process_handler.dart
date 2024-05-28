@@ -145,10 +145,10 @@ class FlutterRunProcessHandler extends ProcessHandler {
     }
 
     _runningProcess = await Process.start(
-      'fvm flutter',
+      '/Users/mac/fvm/versions/3.19.6/bin/flutter',
       arguments,
       workingDirectory: _workingDirectory,
-      runInShell: false,
+      runInShell: true,
     );
 
     _processStdoutStream =
