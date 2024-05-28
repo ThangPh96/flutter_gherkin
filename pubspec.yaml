@@ -19,7 +19,7 @@ dependencies:
   gherkin:
     git:
       url: git@github.com:ThangPh96/dart_gherkin.git
-      ref: G3PTP-7183
+      ref: 1a60264d042e483e426d1187ea8ae016b348c9a1
 
 dev_dependencies:
   test:
