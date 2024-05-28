@@ -145,7 +145,7 @@ class FlutterRunProcessHandler extends ProcessHandler {
     }
 
     _runningProcess = await Process.start(
-      'flutter',
+      'fvm flutter',
       arguments,
       workingDirectory: _workingDirectory,
       runInShell: true,
