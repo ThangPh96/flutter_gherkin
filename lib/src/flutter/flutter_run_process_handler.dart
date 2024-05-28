@@ -148,7 +148,7 @@ class FlutterRunProcessHandler extends ProcessHandler {
       'fvm flutter',
       arguments,
       workingDirectory: _workingDirectory,
-      runInShell: true,
+      runInShell: false,
     );
 
     _processStdoutStream =

@@ -120,3 +120,6 @@ app.*.symbols
 testfile.dill
 pubspec.lock
 .flutter-plugins-dependencies
+
+# FVM Version Cache
+.fvm/
